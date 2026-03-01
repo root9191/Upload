@@ -1,0 +1,41 @@
+﻿<Configuration>
+  <Add OfficeClientEdition="64" Channel="Current" SourcePath="D:\Dokumente\Win11VMFiles\Office Tool" Version="16.0.19231.20194">
+    <Product ID="ProPlus2024Retail">
+      <Language ID="de-de" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+    </Product>
+  </Add>
+  <Display AcceptEULA="True" />
+  <Property Name="ForceAppShutdown" Value="True" />
+  <AppSettings>
+    <User Key="software\microsoft\office\16.0\common\general" Name="shownfirstrunoptin" Value="1" App="office16" Id="L_DisableOptinWizard" ParentID="L_DisableOptinWizard" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common" Name="sendcustomerdata" Value="0" App="office16" Id="L_Sendcustomerdata" ParentID="L_Sendcustomerdata" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common" Name="qmenable" Value="0" App="office16" Id="L_EnableCustomerExperienceImprovementProgram" ParentID="L_EnableCustomerExperienceImprovementProgram" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common\feedback" Name="surveyenabled" Value="0" App="office16" Id="L_SendSurvey" ParentID="L_SendSurvey" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\registration" Name="acceptalleulaspolicy" Value="1" App="office16" Id="L_AcceptAllEulas" ParentID="L_AcceptAllEulas" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\registration" Name="shownfilefmtpromptpolicy" Value="0" App="office16" Id="L_ShownFileFmtPrompt" ParentID="L_ShownFileFmtPrompt" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\osm" Name="enablelogging" Value="0" App="office16" Id="L_EnableLogging" ParentID="L_EnableLogging" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\osm" Name="enableupload" Value="0" App="office16" Id="L_OfficeInventoryAgentUpload" ParentID="L_OfficeInventoryAgentUpload" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\firstrun" Name="bootedrtm" Value="1" App="office16" Id="L_DisableOfficeFirstrun" ParentID="L_DisableOfficeFirstrun" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\firstrun" Name="disablemovie" Value="1" App="office16" Id="L_DisableMovie" ParentID="L_DisableMovie" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common\internet" Name="donotcheckifofficeishtmleditor" Value="1" App="office16" Id="L_CheckifOfficeisthedefaulteditorforWebpagescreatedinOffice" ParentID="L_CheckifOfficeisthedefaulteditorforWebpagescreatedinOffice" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\powerpoint" Name="enablerecordingribbontab" Value="0" App="ppt16" Id="L_EnableRecordingRibbonTab" ParentID="L_EnableRecordingRibbonTab" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\excel\options" Name="alertifnotdefault" Value="0" App="excel16" Id="L_ShowAlertIfNotDefault" ParentID="L_ShowAlertIfNotDefault" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common\diagnostics" Name="configuregetdiagnostics" Value="0" App="office16" Id="L_ConfigureGetDiagnosticsEnum" ParentID="L_ConfigureGetDiagnostics" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common\ai\training\general" Name="disabletraining" Value="1" App="office16" Id="L_DisableTrainingUser" ParentID="L_DisableTrainingUser" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common\ai\training\specific\adaptivefloatie" Name="disabletrainingofadaptivefloatie" Value="1" App="office16" Id="L_DisableTrainingOfAdaptiveFloatieUser" ParentID="L_DisableTrainingOfAdaptiveFloatieUser" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common" Name="default ui theme" Value="4" App="office16" Id="L_defaultUIThemeEnum" ParentID="L_DefaultUIThemeUser" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common\licensing" Name="hidemanageaccountlink" Value="1" App="office16" Id="L_HideManageAccountLink" ParentID="L_HideManageAccountLink" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\common" Name="autoorgidgetkey" Value="0" App="office16" Id="L_AutoOrgIDGetKey" ParentID="L_AutoOrgIDGetKey" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\outlook" Name="dontshowwhatsnew" Value="1" App="office16" Id="L_DontShowWhatsNewInformationOutlook" ParentID="L_DontShowWhatsNewInformationOutlook" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\powerpoint" Name="dontshowwhatsnew" Value="1" App="office16" Id="L_DontShowWhatsNewInformationPowerPoint" ParentID="L_DontShowWhatsNewInformationPowerPoint" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\visio" Name="dontshowwhatsnew" Value="1" App="office16" Id="L_DontShowWhatsNewInformationVisio" ParentID="L_DontShowWhatsNewInformationVisio" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\excel" Name="dontshowwhatsnew" Value="1" App="office16" Id="L_DontShowWhatsNewInformationExcel" ParentID="L_DontShowWhatsNewInformationExcel" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\onenote" Name="dontshowwhatsnew" Value="1" App="office16" Id="L_DontShowWhatsNewInformationOneNote" ParentID="L_DontShowWhatsNewInformationOneNote" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\word" Name="dontshowwhatsnew" Value="1" App="office16" Id="L_DontShowWhatsNewInformationWord" ParentID="L_DontShowWhatsNewInformationWord" Type="REG_DWORD" />
+    <User Key="software\microsoft\office\16.0\dlp" Name="policytipsenabled" Value="0" App="office16" Id="L_PolicyTipsEnabled" ParentID="L_PolicyTipsEnabled" Type="REG_DWORD" />
+  </AppSettings>
+</Configuration>
